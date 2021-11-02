@@ -1,0 +1,6 @@
+name: DiscordVerify
+version: '${project.version}'
+main: org.spagetik.discordverify.DiscordVerify
+api-version: 1.17
+commands:
+  discordverify: {}

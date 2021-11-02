@@ -1,0 +1,24 @@
+discord:
+  bot:
+    token: '*'
+  guild:
+    guild_id: '*'
+    channel_id: '*'
+    common_role_id: '*'
+minecraft:
+  messages:
+    successful: '{player}, your verification code - §2{code}§f (Click to copy)'
+    unsuccessful: '§4There is a problem, contact the server administrator!'
+    havecode: '§cYou already have a code, you can get new code in 1 minute.'
+code_database:
+  host: 'localhost'
+  port: '3306'
+  tablename: 'discord_bot'
+  username: 'user'
+  password: 'password'
+guild_database:
+  host: 'localhost'
+  port: '3306'
+  tablename: 'discord_bot'
+  username: 'user'
+  password: 'password'
