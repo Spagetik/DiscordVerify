@@ -19,7 +19,8 @@ public class DiscordBot {
                 GatewayIntent.class
         );
         try {
-            jda = JDABuilder.create(DiscordVerify.getInstance().getConfig().getString("bot.token"), intents).build();
+            String token = DiscordVerify.getInstance().getConfig().getString("discord.bot.token");
+            jda = JDABuilder.create(token, intents).build();
         } catch (LoginException e) {
             e.printStackTrace();
         }
